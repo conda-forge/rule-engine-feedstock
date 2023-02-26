@@ -1,11 +1,11 @@
-About rule-engine
-=================
+About rule-engine-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rule-engine-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/zeroSteiner/rule-engine
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rule-engine-feedstock/blob/main/LICENSE.txt)
 
 Summary: A lightweight, optionally typed expression language with a custom grammar for matching arbitrary Python objects.
 
@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@drbixx](https://github.com/drbixx/)
 * [@teake](https://github.com/teake/)
 
