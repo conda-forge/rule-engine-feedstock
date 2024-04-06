@@ -1,5 +1,5 @@
 {% set name = "rule-engine" %}
-{% set version = "4.3.1" %}
+{% set version = "4.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rule-engine-{{ version }}.tar.gz
-  sha256: 30f8e3aea345752cd96bd8c0f431d386c7484984f3189c968efd903e54699c86
+  sha256: a358592b95316969a1e3c66fb0fdd457a2189f31891a6c1425d0308c1d6b19bc
 
 build:
   number: 0
