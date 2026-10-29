@@ -1,5 +1,5 @@
 {% set name = "rule-engine" %}
-{% set version = "5.1.0" %}
+{% set version = "5.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: a5f7f0a406fd643168c251677499c06a58815b24e728ec5f4cd99fc263c75c1e
+  sha256: b6ffeb062a57b63d94972aca9ef8eef34e0718a748e593dc41b445958a8c2762
 
 build:
   number: 0
@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - python-dateutil >=2.7,<3
     - setuptools
   run:
     - ply >=3.9
