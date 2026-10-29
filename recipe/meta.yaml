@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - python-dateutil >=2.7,<3
     - setuptools
   run:
     - ply >=3.9
